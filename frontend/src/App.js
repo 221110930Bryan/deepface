@@ -20,7 +20,7 @@ function App() {
   const [employeeSubmitMessage, setEmployeeSubmitMessage] = useState("");
   const [viewingPhoto, setViewingPhoto] = useState(null);
   const [comparingAttendance, setComparingAttendance] = useState(null);
-
+ 
   // Attendance state
   const [faceImage, setFaceImage] = useState(null);
   const [facePreview, setFacePreview] = useState(null);
